@@ -1,0 +1,53 @@
+body{
+    background-image: linear-gradient(rgb(199, 231, 112), rgb(15, 3, 3));
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(255, 145, 0);
+    
+}
+#cont{
+    padding: 0;
+    margin: 0;
+   display: flex;
+    list-style-type: none;
+    font-family: "Oswald", sans-serif;
+
+}
+a{
+   display: block;
+    text-decoration: none;
+color: black;
+padding: 30px;
+
+
+}
+a:hover{
+    background-color: rgb(248, 246, 246);
+}
+#menu1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    background-color: aqua;
+
+}
+#menu2{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: none;
+    background-color: aqua;
+}
+
+#drop1:hover #menu1{
+    display: block;
+}
+#drop2:hover #menu2{
+    display: block;
+}
